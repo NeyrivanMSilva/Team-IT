@@ -53,7 +53,7 @@ import { initialState } from './appContext'
 
 const reducer =   (state, action) => {
   if (action.type === DISPLAY_ALERT) {
- console.log("erbnrmthnrgdbfsvdascvbdgnfh");
+
     return {
       ...state,
       showAlert: true,
@@ -94,7 +94,9 @@ const reducer =   (state, action) => {
     }
   }
   if (action.type === HANDLE_CHANGE) {
-    console.log(action.payload.value);
+ 
+    
+    
 
     return {
       ...state,
@@ -166,8 +168,7 @@ const reducer =   (state, action) => {
     return { ...state, isLoading: true, showAlert: false }
   }
   if  (action.type === GET_BLOG_SUCCESS) {
-    console.log(action.payload.blogs2);
-    console.log(action.payload.postId);
+   
     return {
       ...state,
 

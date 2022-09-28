@@ -106,7 +106,7 @@ const Comment = ({ id, user, date, content, parent_id }) => {
     }
 
     const Cancel = () => {
-        console.log("barca");
+       
         let name = "editedContent"
         let value = ""
 
@@ -131,7 +131,7 @@ const Comment = ({ id, user, date, content, parent_id }) => {
         }
         if (commentCount >= 1) {
             setEdit2IsChosen(false)
-            console.log("2rata2");
+           
         }
 
     }

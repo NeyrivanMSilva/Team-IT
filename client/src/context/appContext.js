@@ -119,7 +119,6 @@ const AppProvider = ({ children }) => {
   const displayAlert = () => {
     dispatch({ type: DISPLAY_ALERT })
  
-    console.log("benfica");
   }
   const displayAlertBlank = () => {
 
@@ -132,7 +131,6 @@ const AppProvider = ({ children }) => {
     }, 13000)
   }
   const handleChange = async ({ name, value }) => {
-    console.log("handle");
     dispatch({ type: HANDLE_CHANGE, payload: { name, value } })
   }
 
@@ -207,7 +205,7 @@ const AppProvider = ({ children }) => {
       ;
   }
   const getBlog = async () => {
-    console.log("get");
+    
     const { postId,fetching } = state
 
     
@@ -218,7 +216,7 @@ const AppProvider = ({ children }) => {
       const data2 = await fetch(url)
 
       const blogs2 = await data2.json()
-      console.log(blogs2);
+   
       dispatch({
         type: GET_BLOG_SUCCESS,
         payload: {
@@ -281,7 +279,7 @@ const AppProvider = ({ children }) => {
     /*  dispatch({ type: SHOW_STATS_BEGIN })
      try {
        const { data } = await playersFetch('/stats')
-       console.log(data);
+   
        dispatch({
          type: SHOW_STATS_SUCCESS,
          payload: {
@@ -350,7 +348,7 @@ const AppProvider = ({ children }) => {
     const currentDay = date2.getDate();
 
 
-    console.log("1")
+ 
     if (currentMonth === 1 || currentMonth === 2 || currentMonth === 3 || currentMonth === 4 || currentMonth === 5 || currentMonth === 6 || currentMonth === 7 || currentMonth === 8 || currentMonth === 9) {
       currentMonth = `0${currentMonth}`
     }
@@ -384,8 +382,7 @@ const AppProvider = ({ children }) => {
 
 
       const { parent_id, } = state
-      console.log(user);
-      console.log(content)
+ 
       await commentsFetch.post(`${postId}/comments`, {
         postId,
         parent_id,
@@ -393,7 +390,7 @@ const AppProvider = ({ children }) => {
         date,
         content
       })
-      console.log(content)
+    
       dispatch({ type: CREATE_COMMENT_SUCCESS })
       dispatch({ type: CLEAR_VALUES })
     } catch (error) {

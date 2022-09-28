@@ -1,0 +1,101 @@
+.button_publishcomment{
+    background-color: blue;
+     color: white;
+     padding: 10px;
+    border-radius: 4px;
+    border: 0px;
+}
+
+
+.button_Submit{
+    background-color:#FC7E41 ;
+    width: 100%;
+    border: 0px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+}
+
+.button_Submit:hover{
+    background-color:#a85226 ;
+}
+
+.button_publishcomment{
+    background-color:#FC7E41 ;
+    width: 100%;
+    border: 0px;
+    height: 95%;
+    border-radius: 5px;
+    color: white;
+}
+
+.button_publishcommentDeActivated{
+    background-color:#5a5755 ;
+    width: 100%;
+    border: 0px;
+    height: 95%;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+}
+
+.button_publishcommentDeActivated2{
+    background-color:#5a5755 ;
+    width: 15%;
+    border: 0px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+   margin-left: 5px;
+}
+
+.button_publishcomment:hover{
+    background-color:#a85226 ;
+}
+
+
+.button_Clear{
+    background-color:#F8D7DA ;
+    width: 100%;
+    border: 0px;
+    height: 40px;
+    border-radius: 5px;
+    color: #842029;
+}
+
+.button_Clear:hover{
+    background-color:#842029 ;
+    color: white;
+}
+
+
+.button_Update{
+    background-color:#FC7E41 ;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    width: 15%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+
+.button_Update2{
+    background-color:#5A5755 ;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    width: 15%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.button_Update:hover{
+    background-color:#a85226 ;
+}

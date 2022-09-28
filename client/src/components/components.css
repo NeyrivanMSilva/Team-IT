@@ -1,0 +1,215 @@
+.logo {
+  width: 16px;
+  font-weight: 400;
+  color: #FC7E41 !important; }
+
+.nav-item::after {
+  content: '';
+  width: 100%;
+  border-bottom: solid 1px #FC7E41;
+  left: 0; }
+
+.navbar2 {
+  background-image: linear-gradient(90deg, rgba(255, 210, 158, 0.462622549) 0%, rgba(255, 82, 0, 0.6278886555) 100%); }
+
+.blogView {
+  background-image: linear-gradient(90deg, rgba(255, 210, 158, 0.462622549) 0%, rgba(255, 82, 0, 0.6278886555) 100%);
+  padding-bottom: 50px; }
+
+.banner_row {
+  margin-top: 100px; }
+
+.banner_title1 {
+  color: white;
+  font-size: 44px; }
+
+.banner_title2 {
+  color: white;
+  font-size: 50px;
+  font-weight: 600; }
+
+.banner_FollowUs {
+  color: white;
+  font-size: 20px;
+  font-weight: 400; }
+
+.icon {
+  color: white; }
+
+.rowIcon {
+  margin-top: 100px; }
+
+.rowIcon2 {
+  width: 20%; }
+
+@media only screen and (max-width: 750px) {
+  .rowIcon2 {
+    width: 40%; } }
+.rowIcon3 {
+  margin-top: 60px; }
+
+.blogs_container {
+  width: 90%;
+  background-color: white;
+  margin: 0 auto;
+  margin-bottom: 40px; }
+
+.blogsSearch {
+  width: 90%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  background-color: white;
+  margin-bottom: 20px; }
+
+.blogsSearchContainer {
+  place-content: center; }
+
+.blogsSearchInput {
+  width: 100% !important;
+  background-color: #DEDEDE !important; }
+
+.banner {
+  background-image: linear-gradient(90deg, rgba(255, 210, 158, 0.462622549) 0%, rgba(255, 82, 0, 0.6278886555) 100%), url("../../public/banner.png");
+  height: 100vh; }
+
+.container-fluid {
+  text-align: -webkit-center; }
+
+.blogsContainer {
+  background-color: #DEDEDE;
+  text-align: -webkit-center;
+  width: 95%;
+  margin-top: 60px; }
+
+.col12_blogbox {
+  width: 90% !important; }
+
+.row_blogbox {
+  width: 93% !important;
+  margin: 0 auto !important; }
+
+.col12_blogbox::after {
+  content: '';
+  width: 100%;
+  background: #eee;
+  border-bottom: 2px solid #eee;
+  height: 1px;
+  position: absolute;
+  left: 0; }
+
+.blogs_title {
+  font-size: 56px;
+  text-align: justify;
+  color: black;
+  font-weight: 600; }
+
+.blog_title {
+  font-size: 56px;
+  text-align: justify;
+  color: black;
+  font-weight: 600; }
+
+.row_blogsInfo:before {
+  content: '';
+  width: 100%;
+  border-bottom: solid 1px black;
+  position: absolute;
+  left: 0; }
+
+.row_blogsInfo::after {
+  content: '';
+  width: 100%;
+  border-bottom: solid 1px black;
+  left: 0; }
+
+.blogs_date {
+  font-size: 20px;
+  text-align: left;
+  margin-top: 10px;
+  font-weight: 500; }
+
+.blogs_author {
+  font-size: 20px;
+  text-align: left;
+  margin-top: 10px;
+  font-weight: 500;
+  color: #FC7E41; }
+
+.blogs_comments {
+  font-size: 20px;
+  text-align: left;
+  margin-top: 10px;
+  font-weight: 400; }
+
+.article-GoBack {
+  color: #FC7E41;
+  font-size: 20px; }
+
+/* ----------------VIEW BLOG---------------- */
+.blog_container {
+  width: 75%;
+  background-color: white;
+  margin: 0 auto; }
+
+.comment_title {
+  font-size: 22px;
+  color: #FC7E41; }
+
+.comment_title_row::after {
+  content: '';
+  width: 100%;
+  border-bottom: solid 1px #FC7E41;
+  left: 0; }
+
+.comment_user {
+  text-align: left;
+  font-weight: 600;
+  font-size: 20px; }
+
+.comment_date {
+  text-align: left;
+  margin-top: 4px;
+  color: #a3a3a3; }
+
+.comment_Edit {
+  margin-top: -15px;
+  font-size: 14px; }
+
+.commentAddLabel {
+  font-size: 30px;
+  font-weight: 600; }
+
+.commentAddLabelInfo {
+  font-size: 16px;
+  font-weight: 600; }
+
+.comment_content {
+  text-align: justify; }
+
+.addComment_box {
+  background-color: #E1E1E1;
+  width: 100%; }
+
+.commentICon {
+  margin-top: 12px;
+  margin-right: 3px;
+  margin-left: 10px;
+  color: #a3a3a3; }
+
+/* 
+-------------------MOBILE----------------------- */
+@media only screen and (min-width: 750px) {
+  .commentMobile {
+    display: none; }
+
+  .commentWeb {
+    display: block; } }
+@media only screen and (max-width: 750px) {
+  .commentMobile {
+    display: block; }
+
+  .commentWeb {
+    display: none; } }
+
+/*# sourceMappingURL=components.css.map */

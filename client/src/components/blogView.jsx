@@ -55,7 +55,7 @@ const BlogView = ({ }) => {
     const GetPostId = async () => {
         const name = "postId"
         const value = localStorage.getItem("postId");
-        console.log(localStorage.getItem("postId"));
+       
         await handleChange({ name, value })
 
     }

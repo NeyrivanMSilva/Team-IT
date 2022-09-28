@@ -1,3 +1,8 @@
+First thing you must do is install all the dependencies on the api files and the frontend files.
+
+To do so, open a cmd inside the project folder and type npm install.
+
+After installed, open another cmd inside the client folder and type npm install again.
 
 To start the front-end application you must open open a CMD inside the client folder and type in NPM STart
 

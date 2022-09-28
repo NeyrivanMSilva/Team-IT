@@ -1,3 +1,10 @@
+
+To start the front-end application you must open open a CMD inside the client folder and type in NPM STart
+
+To start the API, you must you must open open a CMD inside the project folder and type in npm run api
+
+
+
 # Team.it front end challenge REST API
 
 > Starter REST API for Team.it front end coding challenge
@@ -103,4 +110,3 @@ If you wish to go a step further you may host the final product for demo purpose
 
 
 
-To start the front-end application you must open open a CMD inside the client folder and type in NPM STart

@@ -29,7 +29,7 @@ const Article = ({ id, title, author, publish_date, description }) => {
         
       await  handleChange({ name, value })
       StorePostId()
-      console.log(localStorage.getItem("postId" ));
+      
      
 }
 

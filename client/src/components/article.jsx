@@ -26,7 +26,7 @@ const Article = ({ id, title, author, publish_date, description }) => {
     const handleSubmit = async () => {
         const name = "postId"
         const value = id
-        console.log(id);
+        
       await  handleChange({ name, value })
       StorePostId()
       console.log(localStorage.getItem("postId" ));
